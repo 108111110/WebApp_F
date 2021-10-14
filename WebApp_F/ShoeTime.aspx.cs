@@ -13,5 +13,10 @@ namespace WebApp_F
         {
 
         }
+
+        protected void btn_Showtime_Click(object sender, EventArgs e)
+        {
+             Response.Write("目前的時間： " + DateTime.Now.ToString());
+        }
     }
 }
